@@ -1,0 +1,40 @@
+/* interesting!
+* http://www.quirksmode.org/mobile/viewports.html
+*/
+
+body {
+        background: #ccc;
+}
+
+#container {
+        background: #fff;
+        width: 640px;
+        height: 960px;
+        position: relative;
+        
+}
+
+#titlebar {
+        background: #999;
+}
+
+#titlebar h1 {
+        text-align: center;
+}
+
+#takephoto {
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        margin-left: 245px;
+        bottom: 0;
+        z-index: 100;
+}
+
+#footerbar {
+        height: 60px;
+        width: 100%;
+        background: #333;
+        position: absolute;
+        bottom: 0;
+}
